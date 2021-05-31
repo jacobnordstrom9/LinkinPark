@@ -1,31 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <%- include('partials/structure/head.ejs') %>
 </head>
 <body>
-    
+<header>
+    <%- include ('partials/structure/header.ejs') %> 
+</header>
+<div>   
+    <h1> <%= albumName %>  </h1>
+
+    <img src="/images/<%= albumCover %> " height="300px">
+    <h4> Released: <%= released %>  </h4>
+    <p> <%= description %>  <p>
+        <h4> Track List </h4>
+        <ul> 
+            <% tracks.forEach(trackObj =>{ %> 
+            <li><%= trackObj %></li>  
+            <% }) %>
+        </ul>
+</div>
 </body>
 </html>
 
 
-
-
-
-let albumHeader = `
-<link rel="stylesheet" href="css/styles.css">
-<ul class="font">
-
-<li><a href="/"> Homepage</a></li>
-<li><a href="/album/0"> Hybrid Theory</a></li>
-<li><a href="/album/1"> Meterora</a></li>
-</ul>`
-let albumNav = `
-<link rel="stylesheet" href="css/styles.css">
-<ul class="font">
-<li><a href="/album/0"> Hybrid Theory</a></li>
-<li><a href="/album/1"> Meterora</a></li>
-</ul>`

@@ -1,0 +1,43 @@
+{
+    "albums": [
+        {  
+    "id": 0,
+    "album": "Hybrid Theory",
+    "description": "Hybrid Theory is the debut studio album by American rock band Linkin Park. It reached the top 10 in 15 countries and has sold 27 million copies worldwide, making it the best-selling debut album since Guns N' Roses' Appetite for Destruction (1987) and the best-selling rock album of the 21st century. ",
+    "publishDate": "2000",
+    "albumCovers": "Hybrid_Theory.jpeg",
+    "trackList":["Papercut", "One Step Closer","With You", "Points of Authority", "Crawling", "Runaway", "By Myself", "In the End","A Place for My Head","Forgotten","Cure for the Itch","Pushing My Away"]
+},
+{  
+    "id": 1,
+    "album": "Meteora",
+    "description": "Meteora is the second studio album by American rock band Linkin Park. Meteora debuted at number one on the Billboard 200, selling over 810,000 copies in its first week. Meteora has sold around 16 million copies worldwide, making it one of the best-selling albums of the 21st century.",
+    "publishDate": "2003",
+    "albumCovers": "Meteora.jpeg",
+    "trackList":["Foreword", "Don't Stay","Somewhere I Belong","Lying from You", "Hit the Floor", "Easier to Run","Faint", "Figure.09","Breaking the Habit","From the Inside", "Nobody's Listening", "Session","Numb"]
+},
+{
+    "id": 2,
+    "album": "Minutes to Midnight",
+    "description": "Minutes to Midnight is the third studio album by American rock band Linkin Park. The album debuted at number one in the US Billboard 200 and in 15 other countries, including the United Kingdom and Canada. In the United States, the album had the biggest first week sales of 2007 at the time, with 623,000 albums sold, going on to be certified fourfold platinum in the United States.",
+    "publishDate": "2007",
+    "albumCovers": "Minutes_to_Midnight.jpeg",
+    "trackList":["Wake", "Given Up","Leave Out All the Rest", "Bleed It Out","Shadow of the Day","What I've Done","Hands Held High","No More Sorrow","Valentine's Day","In Between","In Pieces","The Little Things Give You Away"]
+},
+{
+    "id": 3,
+    "album": "A Thousand Suns",
+    "description": "A Thousand Suns is the fourth studio album by American rock band Linkin Park. A Thousand Suns is a concept album dealing with human fears such as nuclear warfare. A Thousand Suns debuted at number one on the US Billboard 200 chart with first-week sales of 241,000 copies in the United States.",
+    "publishDate": "2010",
+    "albumCovers": "A_Thousand_Suns.jpeg",
+    "trackList":["The Requiem","The Radiance","Burning in the Skies","Empty Spaces","When They Come for Me","Robot Boy","Jornada Del Muerto","Waiting for the End","Blackout","Wretches and Kings","Wisdom, Justice, and Love","Iridescent","Fallout","The Catalyst","The Messenger"]
+}
+],
+    "artist": {  
+        "name": "Linkin Park",
+        "description": "Linkin Park has been among the world’s most famous rock bands. They have been known for their uniqueness with the type of music they are playing. They eventually became very famous with the release of their debut album titled Hybrid Theory in year 2000 which sold out 4.8 million copies that made it achieve platinum for ten times. With years of success, Linkin Park is considered one of the best rock bands of all time.",
+        "formation": "1996",
+        "albums":["Hybrid Theory","Meteora","Minutes to Midnight","A Thousand Suns"],
+        "bandMembers": ["Mike Shinoda", "Chester Bennington", "Rob Bourdon", "Brad Delson", "Dave Farrell", "Joe Hahn"]
+    }
+}
